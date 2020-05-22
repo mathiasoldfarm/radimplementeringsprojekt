@@ -1,13 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Numerics;
 
 namespace Implementeringsprojekt {
     class Program {
         static void Main(string[] args) {
-            IEnumerable<Tuple<ulong, int>> stream = Stream.CreateStream( 1000, 5 );
-            foreach (var row in stream) {
-                Console.WriteLine(row);
-            }
+            int n = 1000000;
+            int l = 63;
+            RunTimeTester testMultiplyShit = new RunTimeTester(
+                n,
+                l,
+                HashChaining.MultiplyShit,
+                "Multiply Shift"
+            );
+            RunTimeTester testMultiplyModPrime = new RunTimeTester(
+                n,
+                l,
+                HashChaining.MultiplyModPrime,
+                "Multiply Mod Prime"
+            );
+            
+            testMultiplyShit.RunTimer();
+            testMultiplyModPrime.RunTimer();
         }
     }
 }

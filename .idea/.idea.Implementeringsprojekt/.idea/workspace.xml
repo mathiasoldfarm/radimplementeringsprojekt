@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="beaebe6f-a338-4483-8c8c-980853a2e959" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTimeTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashChaining.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HashChaining.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implementeringsprojekt.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Implementeringsprojekt.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HashChaining.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <marker date="1589970127950" expanded="true" signature="6:36" ph="..." />
+                <marker date="1589970127950" expanded="true" signature="71:1392" ph="{...}" />
+                <marker date="1589970127950" expanded="true" signature="103:1390" ph="{...}" />
+                <marker date="1589970127950" expanded="true" signature="482:625" ph="{...}" />
+                <marker date="1589970127950" expanded="true" signature="705:849" ph="{...}" />
+                <marker date="1589970127950" expanded="true" signature="778:817" ph="{...}" />
+                <marker date="1589970127950" expanded="true" signature="929:1147" ph="{...}" />
+                <marker date="1589970127950" expanded="true" signature="1020:1109" ph="{...}" />
+                <marker date="1589970127950" expanded="true" signature="1215:1384" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stream.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="51" />
+              <folding>
+                <marker date="1589720709000" expanded="true" signature="6:70" ph="..." />
+                <marker date="1589720709000" expanded="true" signature="105:1205" ph="{...}" />
+                <marker date="1589720709000" expanded="true" signature="132:1203" ph="{...}" />
+                <marker date="1589720709000" expanded="true" signature="215:1197" ph="{...}" />
+                <marker date="1589720709000" expanded="true" signature="373:432" ph="{...}" />
+                <marker date="1589720709000" expanded="true" signature="446:555" ph="/* We demand that our random number has 30 zeros on the least ... */" />
+                <marker date="1589720709000" expanded="true" signature="698:825" ph="{...}" />
+                <marker date="1589720709000" expanded="true" signature="878:1006" ph="{...}" />
+                <marker date="1589720709000" expanded="true" signature="1060:1187" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RunTimeTester.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <marker date="1589968515000" expanded="true" signature="6:73" ph="..." />
+                <marker date="1589968515000" expanded="true" signature="131:1128" ph="{...}" />
+                <marker date="1589968515000" expanded="true" signature="164:1126" ph="{...}" />
+                <marker date="1589968515000" expanded="true" signature="420:549" ph="{...}" />
+                <marker date="1589968515000" expanded="true" signature="593:790" ph="{...}" />
+                <marker date="1589968515000" expanded="true" signature="681:755" ph="{...}" />
+                <marker date="1589968515000" expanded="true" signature="823:1111" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <marker date="1589970310485" expanded="true" signature="6:36" ph="..." />
+                <marker date="1589970310485" expanded="true" signature="71:702" ph="{...}" />
+                <marker date="1589970310485" expanded="true" signature="91:700" ph="{...}" />
+                <marker date="1589970310485" expanded="true" signature="133:694" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Stream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HashChaining.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RunTimeTester.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/RunTimeTester.cs" />
+        <option value="$PROJECT_DIR$/HashChaining.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1367" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Implementeringsprojekt" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beaebe6f-a338-4483-8c8c-980853a2e959" name="Default Changelist" comment="" />
+      <created>1589963784535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589963784535</updated>
+      <workItem from="1589963788945" duration="228000" />
+      <workItem from="1589964021563" duration="5731000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5959000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="2560" height="1367" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15965052" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HashChaining.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <marker date="1589970127950" expanded="true" signature="6:36" ph="..." />
+            <marker date="1589970127950" expanded="true" signature="71:1392" ph="{...}" />
+            <marker date="1589970127950" expanded="true" signature="103:1390" ph="{...}" />
+            <marker date="1589970127950" expanded="true" signature="482:625" ph="{...}" />
+            <marker date="1589970127950" expanded="true" signature="705:849" ph="{...}" />
+            <marker date="1589970127950" expanded="true" signature="778:817" ph="{...}" />
+            <marker date="1589970127950" expanded="true" signature="929:1147" ph="{...}" />
+            <marker date="1589970127950" expanded="true" signature="1020:1109" ph="{...}" />
+            <marker date="1589970127950" expanded="true" signature="1215:1384" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stream.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <marker date="1589720709000" expanded="true" signature="6:70" ph="..." />
+            <marker date="1589720709000" expanded="true" signature="105:1205" ph="{...}" />
+            <marker date="1589720709000" expanded="true" signature="132:1203" ph="{...}" />
+            <marker date="1589720709000" expanded="true" signature="215:1197" ph="{...}" />
+            <marker date="1589720709000" expanded="true" signature="373:432" ph="{...}" />
+            <marker date="1589720709000" expanded="true" signature="446:555" ph="/* We demand that our random number has 30 zeros on the least ... */" />
+            <marker date="1589720709000" expanded="true" signature="698:825" ph="{...}" />
+            <marker date="1589720709000" expanded="true" signature="878:1006" ph="{...}" />
+            <marker date="1589720709000" expanded="true" signature="1060:1187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunTimeTester.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <marker date="1589968515000" expanded="true" signature="6:73" ph="..." />
+            <marker date="1589968515000" expanded="true" signature="131:1128" ph="{...}" />
+            <marker date="1589968515000" expanded="true" signature="164:1126" ph="{...}" />
+            <marker date="1589968515000" expanded="true" signature="420:549" ph="{...}" />
+            <marker date="1589968515000" expanded="true" signature="593:790" ph="{...}" />
+            <marker date="1589968515000" expanded="true" signature="681:755" ph="{...}" />
+            <marker date="1589968515000" expanded="true" signature="823:1111" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1589970310485" expanded="true" signature="6:36" ph="..." />
+            <marker date="1589970310485" expanded="true" signature="71:702" ph="{...}" />
+            <marker date="1589970310485" expanded="true" signature="91:700" ph="{...}" />
+            <marker date="1589970310485" expanded="true" signature="133:694" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
