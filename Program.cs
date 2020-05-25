@@ -4,8 +4,9 @@ using System.Collections.Generic;
 namespace Implementeringsprojekt {
     class Program {
         static void Main(string[] args) {
-            int n = 1000000;
-            int l = 20;
+            
+            int n = 1000;
+            int l = 8;
             RunTimeTester testMultiplyShit = new RunTimeTester(
                 n,
                 l,
@@ -21,16 +22,13 @@ namespace Implementeringsprojekt {
             
             //testMultiplyShit.RunTimer();
             //testMultiplyModPrime.RunTimer();
-            
-            Hashtable hashtable = new Hashtable(
-                l,
-                HashChaining.MultiplyShift
-            );
 
-            IEnumerable<Tuple<ulong, int>> stream = Stream.CreateStream( n, l );
-            foreach (Tuple<ulong, int> data in stream) {
-                hashtable.set(data.Item1, data.Item2);
-            }
+            Sums.createHashTable(n, l, HashChaining.MultiplyShift);
+            UInt64 squareSum = Sums.squareSum();
+            
+            Console.WriteLine(squareSum);
+            //Sums.hashtable.print();
+
         }
     }
 }

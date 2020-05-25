@@ -18,6 +18,7 @@
       <e p="README.md" t="Include" />
       <e p="RunTimeTester.cs" t="Include" />
       <e p="Stream.cs" t="Include" />
+      <e p="Sums.cs" t="Include" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Implementeringsprojekt.-1702045519.00" t="ExcludeRecursive" />

@@ -15,8 +15,21 @@ namespace Implementeringsprojekt {
     public class Hashtable {
         private int l;
         private UInt64 size;
-        private List<CustomTuple<UInt64, int>>[] hashtable;
+        public List<CustomTuple<UInt64, int>>[] hashtable { get; }
         private Func<ulong, int, UInt64> hashFunction;
+
+        public void print() {
+            foreach (List<CustomTuple<UInt64, int>> list in hashtable) {
+                if ( list != null) {
+                    foreach (CustomTuple<UInt64, int> keyValue in list) {
+                        Console.Write($"{keyValue.Item2}-");
+                    }   
+                    Console.WriteLine("");
+                } else {
+                    Console.WriteLine("Empty");
+                }
+            }
+        }
 
         public Hashtable(int _l, Func<ulong, int, UInt64> _hashFunction) {
             l = _l;
@@ -55,6 +68,7 @@ namespace Implementeringsprojekt {
                     list.Add(new CustomTuple<ulong, int>(key, value));
                 }
             }
+            hashtable[index] = list;
         }
 
         public void increment(ulong key, int d) {
@@ -77,6 +91,7 @@ namespace Implementeringsprojekt {
                     list.Add(new CustomTuple<ulong, int>(key, d));
                 }
             }
+            hashtable[index] = list;
         }
     }
 }
