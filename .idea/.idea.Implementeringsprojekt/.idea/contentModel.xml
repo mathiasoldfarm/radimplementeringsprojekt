@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
+      <e p="CountSketch.cs" t="Include" />
       <e p="HashChaining.cs" t="Include" />
       <e p="Hashtable.cs" t="Include" />
       <e p="Implementeringsprojekt.csproj" t="IncludeRecursive" />
