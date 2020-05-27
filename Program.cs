@@ -13,9 +13,9 @@ namespace Implementeringsprojekt {
             int testL = 4;
             
             int smallStream = 100000;
-            int bigStream = 10000;
+            int bigStream = 163840;
             int fewKeys = 4;
-            int manyKeys = 4;
+            int manyKeys = 15;
             /*
             // Opg. 1c
             RunTimeTester test1 = new RunTimeTester(testN,testL,HashChaining.MultiplyShift,"Multiply Shift");
@@ -97,14 +97,38 @@ namespace Implementeringsprojekt {
             stopwatch.Stop();
             Console.WriteLine($"{squareSum}: {stopwatch.Elapsed}");
 
-            int n = 1;
-            UInt64[] experiments = new UInt64[n];
+            int n = 100;
+            BigInteger[] experiments = new BigInteger[n];
             for (int i = 0; i < n; i++) {
                 BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream);
-                //experiments[i] = X;
+                experiments[i] = X;
                 Console.WriteLine(X);
             }
+            /*
 
+            Array.Sort(experiments);
+            
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"experiments-result.txt")) {
+                foreach (BigInteger result in experiments) {
+                    file.WriteLine(result);
+                }
+            }
+            
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"squaresum.txt")) {
+                file.WriteLine(squareSum);
+            }
+            
+            /*
+            IEnumerable<Tuple<ulong, int>> stream = Stream.CreateStream(6, 2);
+            foreach (Tuple<ulong, int> tple in stream) {
+                Console.WriteLine(tple);
+            }
+            Console.WriteLine("");
+            stream = Stream.CreateStream(6, 2);
+            foreach (Tuple<ulong, int> tple in stream) {
+                Console.WriteLine(tple);
+            }
+            */
         }
     }
 }
