@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Implementeringsprojekt {
     static class Sums {
         public static Hashtable hashtable { get; private set; }
-        private static IEnumerable<Tuple<ulong, int>> stream;
+        public static IEnumerable<Tuple<ulong, int>> stream { get; private set; }
         
         public static void createHashTable(int n, int l, Func<ulong, int, UInt64> hashFunction) {
             hashtable = new Hashtable(

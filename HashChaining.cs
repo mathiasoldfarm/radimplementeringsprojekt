@@ -19,12 +19,23 @@ namespace Implementeringsprojekt {
             return y;
         }
 
-        private static UInt64 binaryStringToUInt64 (string bitString) {
+        public static UInt64 binaryStringToUInt64 (string bitString) {
             UInt64 result = 0;
             
             foreach(char c in bitString) {
                 result <<= 1;
                 result += (UInt64)(c == '1' ? 1 : 0);
+            }
+
+            return result;
+        }
+        
+        public static BigInteger binaryStringToBigInt (string bitString) {
+            BigInteger result = 0;
+            
+            foreach(char c in bitString) {
+                result <<= 1;
+                result += (c == '1' ? 1 : 0);
             }
 
             return result;

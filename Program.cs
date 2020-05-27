@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Numerics;
 
 namespace Implementeringsprojekt {
     class Program {
@@ -12,12 +13,11 @@ namespace Implementeringsprojekt {
             int testL = 4;
             
             int smallStream = 100000;
-            int bigStream = 10000000;
+            int bigStream = 10000;
             int fewKeys = 4;
-            int manyKeys = 12;
-
+            int manyKeys = 4;
+            /*
             // Opg. 1c
-
             RunTimeTester test1 = new RunTimeTester(testN,testL,HashChaining.MultiplyShift,"Multiply Shift");
             RunTimeTester test2 = new RunTimeTester(testN,testL,HashChaining.MultiplyModPrime,"Multiply Mod Prime");
             test1.RunTimer();
@@ -89,6 +89,21 @@ namespace Implementeringsprojekt {
             Console.WriteLine($"Big stream, few keys, multModPrime. S = {squareSum6}, Time = {time6} ");            
             Console.WriteLine($"Big stream, many keys, multShift. S = {squareSum7}, Time = {time7} ");
             Console.WriteLine($"Big stream, many keys, multModPrime. S = {squareSum8}, Time = {time8} ");
+            */
+
+            stopwatch.Start();
+            Sums.createHashTable(bigStream, manyKeys, HashChaining.MultiplyShift);
+            UInt64 squareSum = Sums.squareSum();
+            stopwatch.Stop();
+            Console.WriteLine($"{squareSum}: {stopwatch.Elapsed}");
+
+            int n = 1;
+            UInt64[] experiments = new UInt64[n];
+            for (int i = 0; i < n; i++) {
+                BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream);
+                //experiments[i] = X;
+                Console.WriteLine(X);
+            }
 
         }
     }
