@@ -12,7 +12,7 @@ namespace Implementeringsprojekt {
             int testN = 1000;
             int testL = 4;
             
-            int smallStream = 100000;
+            int smallStream = 100;
             int bigStream = 163840;
             int fewKeys = 4;
             int manyKeys = 15;
@@ -92,7 +92,7 @@ namespace Implementeringsprojekt {
             */
 
             stopwatch.Start();
-            Sums.createHashTable(bigStream, manyKeys, HashChaining.MultiplyShift);
+            Sums.createHashTable(smallStream, fewKeys, HashChaining.MultiplyShift);
             UInt64 squareSum = Sums.squareSum();
             stopwatch.Stop();
             Console.WriteLine($"{squareSum}: {stopwatch.Elapsed}");
@@ -102,8 +102,7 @@ namespace Implementeringsprojekt {
             for (int i = 0; i < n; i++) {
                 BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream);
                 experiments[i] = X;
-                Console.WriteLine(X);
-            }
+            }   
             /*
 
             Array.Sort(experiments);
@@ -129,6 +128,12 @@ namespace Implementeringsprojekt {
                 Console.WriteLine(tple);
             }
             */
+
+            // Mean square error
+            //Console.WriteLine(Sums.meanSquareError(experiments,squareSum));
+            Sums.median(experiments);
+
+
         }
     }
 }

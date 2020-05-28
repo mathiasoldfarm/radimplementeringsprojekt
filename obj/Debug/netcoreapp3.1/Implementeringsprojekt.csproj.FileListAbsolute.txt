@@ -25,3 +25,5 @@
 /home/mikkel/Datalogi/RAD/Implementeringsprojekt/rad_implementeringsprojekt/obj/Debug/netcoreapp3.1/Implementeringsprojekt.genruntimeconfig.cache
 /Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/bin/Debug/netcoreapp3.1/OxyPlot.dll
 /Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CopyComplete
+/home/mikkel/Datalogi/RAD/Implementeringsprojekt/rad_implementeringsprojekt/bin/Debug/netcoreapp3.1/OxyPlot.dll
+/home/mikkel/Datalogi/RAD/Implementeringsprojekt/rad_implementeringsprojekt/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CopyComplete

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace Implementeringsprojekt {
     static class Sums {
@@ -29,6 +30,31 @@ namespace Implementeringsprojekt {
             }
 
             return squareSum;
+        }
+
+        public static BigInteger meanSquareError(BigInteger[] c, BigInteger s){
+            BigInteger mse = 0;
+            foreach (BigInteger x in c) {
+                Console.WriteLine($"{x-s}");
+                mse += (BigInteger.Pow((x - s),2))/100;
+            }
+            
+            return mse;
+        }
+
+        public static void median(BigInteger[]c) {
+            BigInteger[,] g = new BigInteger[9,11];
+            BigInteger[] median = new BigInteger[9];
+            for (int i = 0; i < 9; i++){
+                for (int j = 0; j < 11; j++){
+                    g[i,j] = c[j];
+                }
+            }
+            for (int k = 0; k < 9; k++){
+                median[k] = g[k,7];
+            }
+            Array.Sort(median);
+            Console.WriteLine(median.ToString());
         }
     }
 }
