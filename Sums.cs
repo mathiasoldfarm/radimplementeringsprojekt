@@ -19,12 +19,12 @@ namespace Implementeringsprojekt {
             }
         }
 
-        public static UInt64 squareSum () {
-            UInt64 squareSum = 0;
+        public static BigInteger squareSum () {
+            BigInteger squareSum = 0;
             foreach (List<CustomTuple<UInt64, int>> list in hashtable.hashtable) {
                 if ( list != null) {
                     foreach (CustomTuple<UInt64, int> keyValue in list) {
-                        squareSum += (UInt64) Math.Pow(keyValue.Item2, 2);
+                        squareSum +=  BigInteger.Pow(keyValue.Item2, 2);
                     }   
                 }
             }
@@ -41,7 +41,27 @@ namespace Implementeringsprojekt {
             return mse;
         }
 
-        public static void median(BigInteger[]c) {
+        public static int[] median(BigInteger[] c) {
+            int[] medians = new int[9];
+            List<int[]> groups = new List<int[]>();
+            for (int i = 0; i < 9; i++) {
+                int[] group = new int[11];
+                for (int j = 0; j < 11; j++){
+                    group[j] = (int) c[(i*11)+j];
+                }
+                groups.Add(group);
+            }
+
+            int index = 0;
+            foreach (int[] group in groups) {
+                Array.Sort(group);
+                medians[index] = group[5];
+                index++;
+            }
+
+            return medians;
+
+            /*
             BigInteger[,] g = new BigInteger[9,11];
             BigInteger[] median = new BigInteger[9];
             for (int i = 0; i < 9; i++){
@@ -53,6 +73,7 @@ namespace Implementeringsprojekt {
                 median[k] = g[k,7];
             }
             Array.Sort(median);
+            */
         }
     }
 }

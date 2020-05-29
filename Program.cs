@@ -15,7 +15,7 @@ namespace Implementeringsprojekt {
             int smallStream = 100000;
 
             int fewKeys = 4;
-            int manyKeys = 10;
+            int manyKeys = 12;
             int bigStream = (int)Math.Pow(2,manyKeys)*5;
             /*
             // Opg. 1c
@@ -94,31 +94,49 @@ namespace Implementeringsprojekt {
 
             stopwatch.Start();
             Sums.createHashTable(bigStream, manyKeys, HashChaining.MultiplyShift);
-            UInt64 squareSum = Sums.squareSum();
+            BigInteger squareSum = Sums.squareSum();
             stopwatch.Stop();
             Console.WriteLine($"{squareSum}: {stopwatch.Elapsed}");
-
-            int n = 100;
-            BigInteger[] experiments = new BigInteger[n];
-            for (int i = 0; i < n; i++) {
-                BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream, 15);
-                experiments[i] = X;
-                Console.WriteLine(X);
-            }
-
-        
-            /*
-
-            Array.Sort(experiments);
             
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"experiments-result.txt")) {
-                foreach (BigInteger result in experiments) {
-                    file.WriteLine(result);
+            int[] ts = new int[] { 5, 10, 20 };
+
+            for (int i = 0; i < ts.Length; i++) {
+                int t = ts[i];
+                int n = 100;
+                BigInteger[] experiments = new BigInteger[n];
+
+                for (int j = 0; j < n; j++) {
+                    BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream, t);
+                    experiments[j] = X;
                 }
-            }
+                
+                stopwatch.Start();
+                BigInteger test = CountSketch.CountSketchAlgorithm(Sums.stream, t);
+                stopwatch.Stop();
+
+                Console.WriteLine(
+                    $"MSE: {Sums.meanSquareError(experiments, squareSum)} {stopwatch.Elapsed / 100}");
+                Console.WriteLine("");
+                
+                int[] medians = Sums.median(experiments);
             
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"squaresum.txt")) {
-                file.WriteLine(squareSum);
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter($"../results/medians-{i}.txt")) {
+                    foreach (int median in medians) {
+                        file.WriteLine(median);
+                    }
+                }
+
+                Array.Sort(experiments);
+            
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter($"../results/experiments-result-{i}.txt")) {
+                    foreach (BigInteger result in experiments) {
+                        file.WriteLine(result);
+                    }
+                }
+            
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter($"../results/squaresum-{i}.txt")) {
+                    file.WriteLine(squareSum);
+                }
             }
             
             /*
@@ -132,10 +150,6 @@ namespace Implementeringsprojekt {
                 Console.WriteLine(tple);
             }
             */
-
-            // Mean square error
-            Console.WriteLine($"MSE: {Sums.meanSquareError(experiments,squareSum)}");
-            //Sums.median(experiments);
 
 
         }

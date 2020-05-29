@@ -6,17 +6,16 @@ namespace Implementeringsprojekt{
 
     static class CountSketch{
 
-        public static BigInteger fourUniversal(BigInteger x, BigInteger[] a) {
+        public static BigInteger fourUniversal(BigInteger x, BigInteger[] a, BigInteger p) {
             
-            int b = 89;
             int k = a.Length;
             
             BigInteger y = a[k-1];
-            BigInteger p = (BigInteger)Math.Pow(2,b)-1;
+            
 
             for (int i = k-2; i > -1; i--) {
                 y = y * x + a[i];
-                y = (y & p) + (y >> b);
+                y = (y & p) + (y >> 89);
             }
             if ( y >= p) {
                 y = y - p;
@@ -25,15 +24,15 @@ namespace Implementeringsprojekt{
             return y;
         }
 
-        public static Tuple<BigInteger, BigInteger> CountSketchHash(Func<BigInteger, BigInteger[], BigInteger> g, BigInteger x, BigInteger k, BigInteger[] a) {
+        public static Tuple<UInt64, BigInteger> CountSketchHash(Func<BigInteger, BigInteger[], BigInteger, BigInteger> g, BigInteger x, BigInteger k, BigInteger[] a, BigInteger p) {
             int q = 89;
             
-            BigInteger gx = g(x, a);
-            BigInteger hx = gx & (k - 1);
+            BigInteger gx = g(x, a, p);
+            UInt64 hx = (UInt64)(gx & (k - 1));
             BigInteger bx = gx >> (q - 1);
             BigInteger sx = 1 - 2 * bx;
             
-            return new Tuple<BigInteger, BigInteger>(hx, sx);
+            return new Tuple<UInt64, BigInteger>(hx, sx);
         }
 
         public static BigInteger CountSketchAlgorithm(IEnumerable<Tuple<ulong, int>> stream, int t) {
@@ -43,6 +42,7 @@ namespace Implementeringsprojekt{
             for (UInt64 i = 0; i < m; i++) {
                 c[i] = 0;
             }
+            BigInteger p = (BigInteger)Math.Pow(2,89)-1;
             
             int k = 4;
             Random random = new Random();
@@ -55,18 +55,21 @@ namespace Implementeringsprojekt{
             }
 
             foreach (Tuple<ulong, int> row in stream) {
-                Tuple<BigInteger, BigInteger>
-                    hx_sx = CountSketchHash(CountSketch.fourUniversal, row.Item1, m, a);
-                BigInteger hx = hx_sx.Item1;
+                Tuple<UInt64, BigInteger>
+                    hx_sx = CountSketchHash(CountSketch.fourUniversal, row.Item1, m, a, p);
+                UInt64 hx = hx_sx.Item1;
                 BigInteger sx = hx_sx.Item2;
 
-                c[(UInt64)hx] += sx * row.Item2;
+                c[hx] += sx * row.Item2;
             }
 
             BigInteger X = 0;
             
             for (UInt64 i = 0; i < m; i++) {
-                X += BigInteger.Pow(c[i], 2);
+                BigInteger ci = c[i];
+                if (ci != 0) {
+                    X += BigInteger.Pow(ci, 2);   
+                }
             }
 
             return X;
