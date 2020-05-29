@@ -13,8 +13,9 @@ namespace Implementeringsprojekt {
             int testL = 4;
             
             int smallStream = 100000;
+
             int fewKeys = 4;
-            int manyKeys = 15;
+            int manyKeys = 10;
             int bigStream = (int)Math.Pow(2,manyKeys)*5;
             /*
             // Opg. 1c
@@ -98,19 +99,15 @@ namespace Implementeringsprojekt {
             Console.WriteLine($"{squareSum}: {stopwatch.Elapsed}");
 
             int n = 100;
-            UInt64 MSE = 0;
             BigInteger[] experiments = new BigInteger[n];
             for (int i = 0; i < n; i++) {
                 BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream, 15);
                 experiments[i] = X;
-                MSE += (UInt64)Math.Pow(((UInt64) X - squareSum), 2);
                 Console.WriteLine(X);
             }
 
-            MSE /= 100;
-            Console.WriteLine($"MSE: {MSE}");
-
-         
+        
+            /*
 
             Array.Sort(experiments);
             
@@ -135,6 +132,12 @@ namespace Implementeringsprojekt {
                 Console.WriteLine(tple);
             }
             */
+
+            // Mean square error
+            Console.WriteLine($"MSE: {Sums.meanSquareError(experiments,squareSum)}");
+            //Sums.median(experiments);
+
+
         }
     }
 }

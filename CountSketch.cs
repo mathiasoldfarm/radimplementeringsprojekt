@@ -38,7 +38,7 @@ namespace Implementeringsprojekt{
 
         public static BigInteger CountSketchAlgorithm(IEnumerable<Tuple<ulong, int>> stream, int t) {
             UInt64 m = (UInt64)Math.Pow(2,t);
-            //UInt64 m = 4;
+
             BigInteger [] c = new BigInteger[m];
             for (UInt64 i = 0; i < m; i++) {
                 c[i] = 0;
