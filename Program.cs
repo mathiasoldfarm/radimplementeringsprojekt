@@ -13,9 +13,9 @@ namespace Implementeringsprojekt {
             int testL = 4;
             
             int smallStream = 100000;
-            int bigStream = 163840;
             int fewKeys = 4;
             int manyKeys = 15;
+            int bigStream = (int)Math.Pow(2,manyKeys)*5;
             /*
             // Opg. 1c
             RunTimeTester test1 = new RunTimeTester(testN,testL,HashChaining.MultiplyShift,"Multiply Shift");
@@ -98,13 +98,19 @@ namespace Implementeringsprojekt {
             Console.WriteLine($"{squareSum}: {stopwatch.Elapsed}");
 
             int n = 100;
+            UInt64 MSE = 0;
             BigInteger[] experiments = new BigInteger[n];
             for (int i = 0; i < n; i++) {
-                BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream);
+                BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream, 15);
                 experiments[i] = X;
+                MSE += (UInt64)Math.Pow(((UInt64) X - squareSum), 2);
                 Console.WriteLine(X);
             }
-            /*
+
+            MSE /= 100;
+            Console.WriteLine($"MSE: {MSE}");
+
+         
 
             Array.Sort(experiments);
             
