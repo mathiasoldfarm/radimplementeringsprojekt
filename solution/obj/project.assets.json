@@ -4502,11 +4502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/Implementeringsprojekt.csproj",
+      "projectUniqueName": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/Implementeringsprojekt.csproj",
       "projectName": "Implementeringsprojekt",
-      "projectPath": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/Implementeringsprojekt.csproj",
+      "projectPath": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/Implementeringsprojekt.csproj",
       "packagesPath": "/Users/mathiasgammelgaard/.nuget/packages/",
-      "outputPath": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/obj/",
+      "outputPath": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mathiasgammelgaard/.nuget/NuGet/NuGet.Config"

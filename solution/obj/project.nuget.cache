@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DrZqurm6un0mmUUwNE54gGz5TLf/qF0BusgqUfswNWrqEL/x/LUNKm9imS67P2EhS+nvlX5ErRP5PCcS3KXc6A==",
+  "dgSpecHash": "0FrFw3l1MYicqZT7iClQfE+J+S1NO6QU+Qn/8y8PL0oRcmZ2S5s1DZTeSpf4QVTx+fRzn/lALZmIamj3X0PFCw==",
   "success": true,
-  "projectFilePath": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/Implementeringsprojekt.csproj",
+  "projectFilePath": "/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/Implementeringsprojekt.csproj",
   "expectedPackageFiles": [
     "/Users/mathiasgammelgaard/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/mathiasgammelgaard/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",

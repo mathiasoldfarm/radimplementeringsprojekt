@@ -27,3 +27,17 @@
 /Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CopyComplete
 /home/mikkel/Datalogi/RAD/Implementeringsprojekt/rad_implementeringsprojekt/bin/Debug/netcoreapp3.1/OxyPlot.dll
 /home/mikkel/Datalogi/RAD/Implementeringsprojekt/rad_implementeringsprojekt/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CopyComplete
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/bin/Debug/netcoreapp3.1/Implementeringsprojekt.deps.json
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/bin/Debug/netcoreapp3.1/Implementeringsprojekt.runtimeconfig.json
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/bin/Debug/netcoreapp3.1/Implementeringsprojekt.runtimeconfig.dev.json
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/bin/Debug/netcoreapp3.1/OxyPlot.dll
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csprojAssemblyReference.cache
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.AssemblyInfoInputs.cache
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.AssemblyInfo.cs
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CoreCompileInputs.cache
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CopyComplete
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb
+/Users/mathiasgammelgaard/Dropbox/Skole/DIKU/RAD/Implementeringsprojekt/solution/obj/Debug/netcoreapp3.1/Implementeringsprojekt.genruntimeconfig.cache

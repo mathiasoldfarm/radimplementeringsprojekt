@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beaebe6f-a338-4483-8c8c-980853a2e959" name="Default Changelist" comment="¨">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountSketch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CountSketch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sums.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments-result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squaresum.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,22 +159,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
+            <state relative-caret-position="471">
+              <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
               <folding>
-                <marker date="1590755759730" expanded="true" signature="6:96" ph="..." />
-                <marker date="1590755759730" expanded="true" signature="131:6661" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="151:6659" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="193:6653" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="486:4289" ph="/* Opg. 1c ... */" />
-                <marker date="1590755759730" expanded="true" signature="4666:6212" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="4835:4979" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="5528:5671" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="5582:5653" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="5850:6004" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="5915:5986" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="6132:6198" ph="{...}" />
-                <marker date="1590755759730" expanded="true" signature="6238:6641" ph="/* IEnumerable&lt;Tuple&lt;ulong, int&gt;&gt; stream = Stream.CreateStream(6, 2); ... */" />
+                <marker date="1590755895962" expanded="true" signature="6:96" ph="..." />
+                <marker date="1590755895962" expanded="true" signature="131:6659" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="151:6657" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="193:6651" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="486:4289" ph="/* Opg. 1c ... */" />
+                <marker date="1590755895962" expanded="true" signature="4666:6212" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="4835:4979" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="5528:5671" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="5582:5653" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="5850:6004" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="5915:5986" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="6132:6198" ph="{...}" />
+                <marker date="1590755895962" expanded="true" signature="6238:6641" ph="/* IEnumerable&lt;Tuple&lt;ulong, int&gt;&gt; stream = Stream.CreateStream(6, 2); ... */" />
               </folding>
             </state>
           </provider>
@@ -308,12 +298,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589963784535</updated>
       <workItem from="1589963788945" duration="228000" />
-      <workItem from="1589964021563" duration="54534000" />
+      <workItem from="1589964021563" duration="54607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54762000" />
+    <option name="totallyTimeSpent" value="54835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,22 +495,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
+        <state relative-caret-position="471">
+          <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
           <folding>
-            <marker date="1590755759730" expanded="true" signature="6:96" ph="..." />
-            <marker date="1590755759730" expanded="true" signature="131:6661" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="151:6659" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="193:6653" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="486:4289" ph="/* Opg. 1c ... */" />
-            <marker date="1590755759730" expanded="true" signature="4666:6212" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="4835:4979" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="5528:5671" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="5582:5653" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="5850:6004" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="5915:5986" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="6132:6198" ph="{...}" />
-            <marker date="1590755759730" expanded="true" signature="6238:6641" ph="/* IEnumerable&lt;Tuple&lt;ulong, int&gt;&gt; stream = Stream.CreateStream(6, 2); ... */" />
+            <marker date="1590755895962" expanded="true" signature="6:96" ph="..." />
+            <marker date="1590755895962" expanded="true" signature="131:6659" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="151:6657" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="193:6651" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="486:4289" ph="/* Opg. 1c ... */" />
+            <marker date="1590755895962" expanded="true" signature="4666:6212" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="4835:4979" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="5528:5671" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="5582:5653" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="5850:6004" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="5915:5986" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="6132:6198" ph="{...}" />
+            <marker date="1590755895962" expanded="true" signature="6238:6641" ph="/* IEnumerable&lt;Tuple&lt;ulong, int&gt;&gt; stream = Stream.CreateStream(6, 2); ... */" />
           </folding>
         </state>
       </provider>
