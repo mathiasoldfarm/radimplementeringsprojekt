@@ -1,5 +1,6 @@
 using System;
 using System.Numerics;
+using System.Collections.Generic;
 
 namespace Implementeringsprojekt {
     static class HashChaining {
@@ -11,8 +12,8 @@ namespace Implementeringsprojekt {
             return ( a * x ) >> (64 - l);
         }
 
-        private static UInt64 modulusP(UInt64 x, UInt64 p, int q) {
-            UInt64 y = (x&p) + (x >> q);
+        private static BigInteger modulusP(UInt64 x, BigInteger p, int q) {
+            BigInteger y = (x&p) + (x >> q);
             if ( y >= p ) {
                 y -= p;
             }
@@ -43,9 +44,18 @@ namespace Implementeringsprojekt {
 
         public static UInt64 MultiplyModPrime(ulong x, int l) {
             int q = 89;
-            UInt64 p = (UInt64) (2^q)-1;
-            UInt64 result = modulusP(a*x+b, p, q);
-            return (result & (UInt64)( (2^l) - 1 ));
+            BigInteger p = BigInteger.Pow(2,q) - 1;
+            BigInteger result = modulusP(a*x+b, p, q);
+            return (UInt64)(result & ( BigInteger.Pow(2, l) - 1 ));
+        }
+        
+        public static BigInteger calculateSum(Func<ulong, int, UInt64> methodToTest, IEnumerable<Tuple<ulong, int>> stream, int l) {
+            BigInteger sum = 0;
+            foreach (Tuple<ulong, int> row in stream) {
+                sum += methodToTest(row.Item1, l);
+            }
+
+            return sum;
         }
     }
 }

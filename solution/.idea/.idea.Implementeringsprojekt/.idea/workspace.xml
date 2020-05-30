@@ -2,42 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc8bb82d-1f37-4283-a97b-920fc8b198d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CountSketch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HashChaining.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hashtable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Implementeringsprojekt.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RunTimeTester.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stream.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sums.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/Debug/netcoreapp3.1/Implementeringsprojekt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/Debug/netcoreapp3.1/Implementeringsprojekt.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/Debug/netcoreapp3.1/Implementeringsprojekt.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/Debug/netcoreapp3.1/Implementeringsprojekt.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/Debug/netcoreapp3.1/OxyPlot.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Implementeringsprojekt.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Implementeringsprojekt.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Implementeringsprojekt.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/Implementeringsprojekt.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plot-experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plot-experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plot-medians.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plot-medians.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/experiments-result-0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/experiments-result-0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/experiments-result-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/experiments-result-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/experiments-result-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/experiments-result-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/medians-0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/medians-0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/medians-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/medians-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/medians-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/medians-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/squaresum-0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/squaresum-0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/squaresum-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/squaresum-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/squaresum-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/squaresum-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashChaining.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HashChaining.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunTimeTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RunTimeTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Implementeringsprojekt.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,34 +38,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HashChaining.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <marker date="1590566490021" expanded="false" signature="6:36" ph="..." />
-                <marker date="1590566490021" expanded="true" signature="71:1665" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="103:1663" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="463:607" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="675:815" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="744:783" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="886:1110" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="973:1072" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="1193:1413" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="1284:1375" ph="{...}" />
-                <marker date="1590566490021" expanded="true" signature="1477:1657" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hashtable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="540">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <marker date="1590439727079" expanded="false" signature="6:47" ph="..." />
                 <marker date="1590439727079" expanded="true" signature="82:3318" ph="{...}" />
@@ -105,22 +75,115 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            <state relative-caret-position="380">
+              <caret line="62" column="70" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="70" />
               <folding>
-                <marker date="1590755895962" expanded="false" signature="6:96" ph="..." />
-                <marker date="1590755895962" expanded="true" signature="131:6659" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="151:6657" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="193:6651" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="486:4289" ph="/* Opg. 1c ... */" />
-                <marker date="1590755895962" expanded="true" signature="4666:6212" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="4835:4979" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="5528:5671" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="5582:5653" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="5850:6004" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="5915:5986" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="6132:6198" ph="{...}" />
-                <marker date="1590755895962" expanded="true" signature="6238:6641" ph="/* IEnumerable&lt;Tuple&lt;ulong, int&gt;&gt; stream = Stream.CreateStream(6, 2); ... */" />
+                <marker date="1590842615545" expanded="true" signature="6:96" ph="..." />
+                <marker date="1590842615545" expanded="true" signature="131:4202" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="151:4200" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="193:4194" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="1175:2304" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="1206:1295" ph="/* Opg. 3 ... */" />
+                <marker date="1590842615545" expanded="true" signature="2552:4184" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="2772:2916" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="3500:3643" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="3554:3625" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="3822:3976" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="3887:3958" ph="{...}" />
+                <marker date="1590842615545" expanded="true" signature="4104:4170" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HashChaining.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <marker date="1590840205843" expanded="true" signature="6:70" ph="..." />
+                <marker date="1590840205843" expanded="true" signature="105:2071" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="137:2069" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="497:641" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="717:861" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="790:829" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="932:1156" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="1019:1118" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="1239:1459" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="1330:1421" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="1523:1733" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="1874:2063" ph="{...}" />
+                <marker date="1590840205843" expanded="true" signature="1962:2028" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sums.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <marker date="1590753978338" expanded="false" signature="6:70" ph="..." />
+                <marker date="1590753978338" expanded="true" signature="105:2457" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="129:2455" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="382:688" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="602:678" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="736:1140" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="857:1099" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="894:1085" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="968:1064" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="1220:1412" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="1294:1365" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="1465:2449" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="1599:1806" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="1688:1757" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="1879:1997" ph="{...}" />
+                <marker date="1590753978338" expanded="true" signature="2040:2439" ph="/* BigInteger[,] g = new BigInteger[9,11]; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RunTimeTester.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="33" />
+              <folding>
+                <marker date="1590839619331" expanded="true" signature="6:73" ph="..." />
+                <marker date="1590839619331" expanded="true" signature="108:1112" ph="{...}" />
+                <marker date="1590839619331" expanded="true" signature="141:1110" ph="{...}" />
+                <marker date="1590839619331" expanded="true" signature="413:562" ph="{...}" />
+                <marker date="1590839619331" expanded="true" signature="601:787" ph="{...}" />
+                <marker date="1590839619331" expanded="true" signature="685:752" ph="{...}" />
+                <marker date="1590839619331" expanded="true" signature="820:1104" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CountSketch.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <marker date="1590755117916" expanded="false" signature="6:70" ph="..." />
+                <marker date="1590755117916" expanded="true" signature="104:2319" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="135:2316" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="229:570" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="379:469" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="495:537" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="752:1042" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="1144:2310" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="1285:1326" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="1603:1703" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="1759:2036" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="2124:2277" ph="{...}" />
+                <marker date="1590755117916" expanded="true" signature="2193:2263" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,13 +191,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>^</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/HashChaining.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hashtable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RunTimeTester.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CountSketch.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/RunTimeTester.cs" />
+        <option value="$PROJECT_DIR$/HashChaining.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -213,12 +293,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590755982120</updated>
-      <workItem from="1590755983706" duration="22000" />
+      <workItem from="1590755983706" duration="434000" />
+      <workItem from="1590833953630" duration="43000" />
+      <workItem from="1590834005498" duration="9227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22000" />
+    <option name="totallyTimeSpent" value="9704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,18 +315,11 @@
     <frame x="0" y="23" width="2560" height="1367" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -252,18 +327,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,34 +354,112 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/HashChaining.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/HashChaining.cs" initialLine="43">
+            <startOffsets>
+              <option value="1523" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1524" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CountSketch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1590755117916" expanded="false" signature="6:70" ph="..." />
+            <marker date="1590755117916" expanded="true" signature="104:2319" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="135:2316" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="229:570" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="379:469" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="495:537" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="752:1042" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="1144:2310" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="1285:1326" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="1603:1703" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="1759:2036" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="2124:2277" ph="{...}" />
+            <marker date="1590755117916" expanded="true" signature="2193:2263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunTimeTester.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="33" />
+          <folding>
+            <marker date="1590839619331" expanded="true" signature="6:73" ph="..." />
+            <marker date="1590839619331" expanded="true" signature="108:1112" ph="{...}" />
+            <marker date="1590839619331" expanded="true" signature="141:1110" ph="{...}" />
+            <marker date="1590839619331" expanded="true" signature="413:562" ph="{...}" />
+            <marker date="1590839619331" expanded="true" signature="601:787" ph="{...}" />
+            <marker date="1590839619331" expanded="true" signature="685:752" ph="{...}" />
+            <marker date="1590839619331" expanded="true" signature="820:1104" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HashChaining.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="585">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
-            <marker date="1590566490021" expanded="false" signature="6:36" ph="..." />
-            <marker date="1590566490021" expanded="true" signature="71:1665" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="103:1663" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="463:607" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="675:815" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="744:783" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="886:1110" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="973:1072" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="1193:1413" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="1284:1375" ph="{...}" />
-            <marker date="1590566490021" expanded="true" signature="1477:1657" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="6:70" ph="..." />
+            <marker date="1590840205843" expanded="true" signature="105:2071" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="137:2069" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="497:641" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="717:861" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="790:829" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="932:1156" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="1019:1118" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="1239:1459" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="1330:1421" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="1523:1733" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="1874:2063" ph="{...}" />
+            <marker date="1590840205843" expanded="true" signature="1962:2028" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sums.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <marker date="1590753978338" expanded="false" signature="6:70" ph="..." />
+            <marker date="1590753978338" expanded="true" signature="105:2457" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="129:2455" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="382:688" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="602:678" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="736:1140" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="857:1099" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="894:1085" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="968:1064" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="1220:1412" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="1294:1365" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="1465:2449" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="1599:1806" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="1688:1757" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="1879:1997" ph="{...}" />
+            <marker date="1590753978338" expanded="true" signature="2040:2439" ph="/* BigInteger[,] g = new BigInteger[9,11]; ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hashtable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="540">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <marker date="1590439727079" expanded="false" signature="6:47" ph="..." />
             <marker date="1590439727079" expanded="true" signature="82:3318" ph="{...}" />
@@ -329,22 +489,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="380">
+          <caret line="62" column="70" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="70" />
           <folding>
-            <marker date="1590755895962" expanded="false" signature="6:96" ph="..." />
-            <marker date="1590755895962" expanded="true" signature="131:6659" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="151:6657" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="193:6651" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="486:4289" ph="/* Opg. 1c ... */" />
-            <marker date="1590755895962" expanded="true" signature="4666:6212" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="4835:4979" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="5528:5671" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="5582:5653" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="5850:6004" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="5915:5986" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="6132:6198" ph="{...}" />
-            <marker date="1590755895962" expanded="true" signature="6238:6641" ph="/* IEnumerable&lt;Tuple&lt;ulong, int&gt;&gt; stream = Stream.CreateStream(6, 2); ... */" />
+            <marker date="1590842615545" expanded="true" signature="6:96" ph="..." />
+            <marker date="1590842615545" expanded="true" signature="131:4202" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="151:4200" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="193:4194" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="1175:2304" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="1206:1295" ph="/* Opg. 3 ... */" />
+            <marker date="1590842615545" expanded="true" signature="2552:4184" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="2772:2916" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="3500:3643" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="3554:3625" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="3822:3976" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="3887:3958" ph="{...}" />
+            <marker date="1590842615545" expanded="true" signature="4104:4170" ph="{...}" />
           </folding>
         </state>
       </provider>
