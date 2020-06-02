@@ -8,7 +8,7 @@ namespace Implementeringsprojekt {
         static void Main(string[] args) {
 
             Stopwatch stopwatch = new Stopwatch();
-            int n = (int)Math.Pow(2, 15);
+            int n = (int)Math.Pow(2, 24) * 5;
 
             int l = 25;
             int s = 10000000;
@@ -27,10 +27,7 @@ namespace Implementeringsprojekt {
             Console.WriteLine($"Runtime MultiplyModPrime: {stopwatch.Elapsed}, sum: {sum}");
             stopwatch.Reset();
 
-            int smallL = 8;
-            int bigL = 14;
-            
-            int[] ls = new int[] { 4, 6, 10, 14, 18, 20, 25, 27, 29 };
+            int[] ls = new int[] { 4, 6, 10, 14, 18, 20, 24 };
 
             foreach (int _l in ls) {
             
@@ -59,12 +56,18 @@ namespace Implementeringsprojekt {
                 Console.WriteLine(diff);
                 Console.WriteLine("");
             }
-       
-            Sums.createHashTable(n, bigL, HashChaining.MultiplyShift);
-            BigInteger squareSum = Sums.squareSum();
-            
 
-            int[] ts = new int[] { 5, 10, 20, 25 };
+            int smallN = (int)Math.Pow(2, 17) * 5;
+            int smallL = 17;
+            
+            stopwatch.Start();
+            Sums.createHashTable(smallN, smallL, HashChaining.MultiplyShift);
+            BigInteger squareSum = Sums.squareSum();
+            stopwatch.Stop();
+            Console.WriteLine($"Time for squaresum, l = 17: s = {squareSum}, time: {stopwatch.Elapsed}");
+            stopwatch.Reset();
+
+            int[] ts = new int[] { 10, 15, 20, 25 };
 
             for (int i = 0; i < ts.Length; i++) {
                 int t = ts[i];
@@ -104,6 +107,37 @@ namespace Implementeringsprojekt {
                 using (System.IO.StreamWriter file = new System.IO.StreamWriter($"../results/squaresum-{i}.txt")) {
                     file.WriteLine(squareSum);
                 }
+            }
+
+
+            n = (int)Math.Pow(2, 24)*5;
+            l = 24;
+            
+            stopwatch.Start();
+            Sums.createHashTable(n, l, HashChaining.MultiplyShift);
+            squareSum = Sums.squareSum();
+            stopwatch.Stop();
+            Console.WriteLine($"Time for squaresum, l = 17: s = {squareSum}, time: {stopwatch.Elapsed}");
+            stopwatch.Reset();
+            
+            for (int i = 0; i < ts.Length; i++) {
+                int t = ts[i];
+                int number_experiments = 3;
+                BigInteger[] experiments = new BigInteger[number_experiments];
+
+                for (int j = 0; j < number_experiments; j++) {
+                    BigInteger X = CountSketch.CountSketchAlgorithm(Sums.stream, t);
+                    experiments[j] = X;
+                }
+                
+                stopwatch.Start();
+                BigInteger test = CountSketch.CountSketchAlgorithm(Sums.stream, t);
+                stopwatch.Stop();
+
+                Console.WriteLine(
+                    $"MSE: {Sums.meanSquareError(experiments, squareSum)} {stopwatch.Elapsed / 100}");
+                Console.WriteLine("");
+                stopwatch.Reset();
             }
         }
     }
