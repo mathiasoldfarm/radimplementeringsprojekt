@@ -13,12 +13,6 @@
       <change beforePath="$PROJECT_DIR$/../results/squaresum-0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/squaresum-0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../results/squaresum-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/squaresum-1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../results/squaresum-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../results/squaresum-2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Implementeringsprojekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Implementeringsprojekt.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +58,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
+            <state relative-caret-position="78">
               <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
               <folding>
                 <marker date="1591107865004" expanded="false" signature="6:96" ph="..." />
@@ -279,12 +273,12 @@
       <workItem from="1590755983706" duration="434000" />
       <workItem from="1590833953630" duration="43000" />
       <workItem from="1590834005498" duration="9462000" />
-      <workItem from="1591096570142" duration="11221000" />
+      <workItem from="1591096570142" duration="12363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21160000" />
+    <option name="totallyTimeSpent" value="22302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +309,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3529412" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.6180392" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -472,7 +466,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="78">
           <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
           <folding>
             <marker date="1591107865004" expanded="false" signature="6:96" ph="..." />

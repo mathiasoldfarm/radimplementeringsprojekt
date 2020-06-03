@@ -42,7 +42,7 @@ namespace Implementeringsprojekt{
             for (UInt64 i = 0; i < m; i++) {
                 c[i] = 0;
             }
-            BigInteger p = (BigInteger)Math.Pow(2,89)-1;
+            BigInteger p = BigInteger.Pow(2,89)-1;
             
             int k = 4;
             Random random = new Random();

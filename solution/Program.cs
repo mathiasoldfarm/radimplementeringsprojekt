@@ -26,7 +26,20 @@ namespace Implementeringsprojekt {
             stopwatch.Stop();
             Console.WriteLine($"Runtime MultiplyModPrime: {stopwatch.Elapsed}, sum: {sum}");
             stopwatch.Reset();
+            
+            stopwatch.Start();
+            sum = HashChaining.calculateSum(CountSketch.fourUniversal, stream);
+            stopwatch.Stop();
+            Console.WriteLine($"Runtime FourUniversal: {stopwatch.Elapsed}, sum: {sum}");
+            stopwatch.Reset();
+            
+            stopwatch.Start();
+            sum = HashChaining.calculateSum(CountSketch.CountSketchHash, 25, stream);
+            stopwatch.Stop();
+            Console.WriteLine($"Runtime FourUniversal: {stopwatch.Elapsed}, sum: {sum}");
+            stopwatch.Reset();
 
+            /*
             int[] ls = new int[] { 4, 6, 10, 14, 18, 20, 24 };
 
             foreach (int _l in ls) {
@@ -56,7 +69,6 @@ namespace Implementeringsprojekt {
                 Console.WriteLine(diff);
                 Console.WriteLine("");
             }
-
             int smallN = (int)Math.Pow(2, 17) * 5;
             int smallL = 17;
             
@@ -139,6 +151,7 @@ namespace Implementeringsprojekt {
                 Console.WriteLine("");
                 stopwatch.Reset();
             }
+            */
         }
     }
 }

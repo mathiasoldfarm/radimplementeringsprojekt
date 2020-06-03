@@ -57,5 +57,49 @@ namespace Implementeringsprojekt {
 
             return sum;
         }
+        
+        public static BigInteger calculateSum(Func<BigInteger, BigInteger[], BigInteger, BigInteger> methodToTest, IEnumerable<Tuple<ulong, int>> stream) {
+            BigInteger sum = 0;
+            
+            int k = 4;
+            Random random = new Random();
+            byte[] data = new byte[11];
+            
+            BigInteger[] a = new BigInteger[k];
+            for (int i = 0; i < k; i++) {
+                random.NextBytes(data);
+                a[i] = new BigInteger(data);
+            }
+            BigInteger p = BigInteger.Pow(2,89)-1;
+            
+            foreach (Tuple<ulong, int> row in stream) {
+                sum += methodToTest(row.Item1, a, p);
+            }
+            
+            return sum;
+        }
+        
+        public static BigInteger calculateSum(Func<Func<BigInteger, BigInteger[], BigInteger, BigInteger>, BigInteger, BigInteger, BigInteger[], BigInteger, Tuple<UInt64, BigInteger>> methodToTest, int t, IEnumerable<Tuple<ulong, int>> stream) {
+            BigInteger sum = 0;
+            UInt64 m = (UInt64)Math.Pow(2,t);
+            
+            int k = 4;
+            Random random = new Random();
+            byte[] data = new byte[11];
+            
+            BigInteger[] a = new BigInteger[k];
+            for (int i = 0; i < k; i++) {
+                random.NextBytes(data);
+                a[i] = new BigInteger(data);
+            }
+            BigInteger p = BigInteger.Pow(2,89)-1;
+            
+            foreach (Tuple<ulong, int> row in stream) {
+                Tuple<UInt64, BigInteger> hx_sx = methodToTest(CountSketch.fourUniversal, row.Item1, m, a, p);
+                sum += hx_sx.Item1;
+            }
+            
+            return sum;
+        }
     }
 }
